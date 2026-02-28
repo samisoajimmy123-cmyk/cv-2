@@ -1,0 +1,189 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url(https://img.freepik.com/photos-gratuite/fond-texture-abstrait_1258-30461.jpg);
+    color: white;
+}
+
+.profil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto;
+    margin-top: 100px;
+    gap: 70px;
+    width: 100%;
+    max-width: 1300px;
+    height: min(100vh, 500px);
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.photo img {
+    width: 350px;
+    border-radius: 20px;
+}
+
+.entete {
+    max-width: 730px;
+}
+
+.salut {
+    font-size: 120px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.salut span {
+    color: orange;
+}
+
+.entete p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 20px 0;
+}
+
+.buttons a {
+    display: inline-block;
+    background: orange;
+    color: black;
+    padding: 12px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    margin-right: 10px;
+    font-weight: 600;
+}
+
+.buttons a:hover {
+    background: #ffae42;
+}
+
+.parcours{
+    display: flex;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    padding: 60px;
+    margin: 0 100px;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 120px;
+}
+
+.cadre-1{
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 10px;
+}
+
+.ici{
+    background: orange;
+    color: black;
+    padding: 12px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 10px;
+    font-weight: 600;
+    align-items: center;
+}
+
+.ligne-3{
+    display: flex;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 70px;
+    padding-bottom: 100px;
+    margin: 0 100px 100px 100px;
+    gap: 50px;
+}
+
+.projet .texte{
+    max-width: 700px;
+}
+
+.cadre-4{
+    border-left: 2px solid white;
+    padding-left: 70px;
+}
+
+.education h2{
+    background: orange;
+    color: black;
+    padding: 12px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 10px;
+    font-weight: 600;
+}
+
+.expérience h2{
+    background: orange;
+    color: black;
+    padding: 12px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 10px;
+    font-weight: 600;
+}
+
+.compétence h2{
+    background: orange;
+    color: black;
+    padding: 12px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 10px;
+    font-weight: 600;
+}
+
+.qualité h2{
+    background: orange;
+    color: black;
+    padding: 12px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 10px;
+    font-weight: 600;
+}
+
+.langue h2{
+    background: orange;
+    color: black;
+    padding: 12px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 10px;
+    font-weight: 600;
+}
+
+.projet h2{
+    background: orange;
+    color: black;
+    padding: 12px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 10px;
+    font-weight: 600;
+}
+
+.professionnel{
+    background: orange;
+    color: black;
+    padding: 12px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 10px;
+    font-weight: 600;
+}
